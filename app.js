@@ -1,6 +1,7 @@
 const request = require('request');
 
-var stor;
+
+
 function Data(){
 
   //storeRequest(zip) is the helper function to the getStores(zip) function. Allows a promise to be returned after the request is finished.
@@ -167,6 +168,3 @@ function Meal(){
   }
 
 }
-
-
-module.exports.wegmans = new Data();
