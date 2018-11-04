@@ -2,16 +2,15 @@
   "name": "hackathon",
   "version": "1.0.0",
   "description": "Utilizing the Wegmans API to allow external recipe search, shopping list estimation based on store and plans to utilize voice recognition software for product search. ",
-  "main": "app.js",
+  "main": "node server.js",
   "dependencies": {
     "express": "^4.16.4",
-    "pm2": "^3.2.2",
-    "pug": "^2.0.3",
+    "nodemon": "^1.18.5",
     "request": "^2.88.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "npx pm2 start server.js --watch"
+    "start": "nodemon server.js"
   },
   "author": "Warren, Andy, Jye, Birender",
   "license": "ISC"

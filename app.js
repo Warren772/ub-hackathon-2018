@@ -62,12 +62,6 @@ function Data(){
           return true;
         }
 
-        element.fuck = "sss";
-        var sku = element['sku'];
-        getProduct('sku', function(pic){
-          console.log(pic);
-        });
-
         possibleProds.push(element);
       });
       this.possibleProducts = possibleProds;
